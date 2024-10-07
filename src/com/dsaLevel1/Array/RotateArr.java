@@ -1,6 +1,8 @@
+package com.dsaLevel1.Array;
+
 import java.util.Arrays;
 
-public class App {
+public class RotateArr {
     public static void swapWithoutTemp(int a , int b){
         a = a + b ;
         b = a - b;
@@ -19,7 +21,7 @@ public class App {
         //System.out.println(Arrays.toString(arr));
         return arr;
     }
-
+    
     public static int[]  rotateArray(int[] arr , int k){
         int n = arr.length;
          k = k % n ; int j =0;
@@ -31,7 +33,8 @@ public class App {
             ans[j++] = arr[i];
         }
         return ans;
-    }
+    } 
+        //rotate the given array 'a' by 'k' steps ,  where 'k' is a non negetive number without using extra space
     public static void rotateInPlace(int[] arr , int k){
         int n = arr.length;
         reverseArray(arr ,0, n-k-1);
@@ -48,4 +51,5 @@ public class App {
 
         rotateInPlace(arr,5);
     }
+    
 }

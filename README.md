@@ -1,6 +1,6 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to the final reminder for upskill to get ur ass back out there for work. Here is a guideline to help you get started to write good and optimized  code so u don't mess up the production use dsa for sharpen  those coding skills in Visual Studio Code.
 
 ## Folder Structure
 
