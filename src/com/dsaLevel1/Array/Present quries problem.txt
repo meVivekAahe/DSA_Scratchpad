@@ -1,2 +1,16 @@
 Given Q queries , check if the given number is present in the array or not.
-Node :  value of all elements in the array is less the 10 to the power 5.
+Note :  value of all elements in the array is less the 10 to the power 5.
+
+
+
+
+
+
+
+
+
+approach: 
+so we are given a array and also a number Q , q is for the number of queries. .
+we all have dpne these sorts of question where a query is given and when we need to find if the number is present in array or not. but here in this question we have 5 queries . we want to find out which number is present in array.
+and by keeping in mind that there'e a handy hint is given taht al the array in elemtent are less the the 10 tot the pwer of 5 . so so we introduce frequency arrray . initially this frequency array will be empty the we will process the array we want to search element for. and after reaching the a index we will upadte the count at that index in frequency arr.
+
