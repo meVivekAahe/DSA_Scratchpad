@@ -1,0 +1,2 @@
+Given Q queries , check if the given number is present in the array or not.
+Node :  value of all elements in the array is less the 10 to the power 5.
